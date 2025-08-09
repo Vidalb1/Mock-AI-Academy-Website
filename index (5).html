@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the bbbCSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>AI Academy</title>
+        <link rel="icon" href="img/Adobe Express - file.png">
+        <link rel="stylesheet" href="styles.css"/>
+        
+        
+    </head>
+    
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+
+        <!-- navbar
+
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><button id = "theme-button"> Toggle Dark Mode</button></li>
+            </ul>
+        </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <div class = "header-container" id = "home">
+            <div id = "header-item">
+                <img alt = "Website Mascot" src = "img/Adobe Express - file.png" width = 200px id = "header-img"/>
+            </div>
+            <div class = "header-item">
+                <h1>AI Academy (AIA) </h1>
+                <h2>Learn. Innovate. Build. </h2>
+            </div>
+            <div class = "header-button">
+                <a href="#rsvp page">
+                    <button type="button">Register</button>
+                </a>
+                <a href="https://chatgpt.com/">
+                    <button type="button">Ask AI</button>
+                </a>
+            </div>
+        </div>
+        
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div class = "About">
+            <h2 id="about">About the Event</h2>
+            
+            <div class = "Youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qYNweeDHiyU?si=OE41eT53ggOxZ1LP" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+            </div>
+            <div class = "Expect">
+                <p>Artificial Intelligence is rapidly transforming every aspect of our lives—from how we work to how we innovate.
+                    What once took hours can now be solved in minutes with the power of AI. This event brings together curious minds, 
+                    aspiring tech professionals, and industry leaders to explore how companies like UPS and Figure AI are pushing the 
+                    boundaries of automation with humanoid robotics. Whether you're new to AI or already building in the space, 
+                    join us to learn, connect, and help shape the future of technology—one breakthrough at a time.
+                </p>
+
+                <h3>What to Expect</h3>
+                <h4>From Beginner to Builder: Launch Your AI Journey</h4>
+                <ul>
+                    <li><b>No Experience? No Problem!</b> <i>Join a 2–3 week training led by AI engineering professionals—perfect for beginners or those looking to sharpen their development skills.</i></li>
+                    <li><b>Explore Cutting-Edge AI Tools</b> <i>Get hands-on insights into how state-of-the-art AI systems are built, so you can start building your own.</i></li>
+                    <li><b>Build the Future</b> <i>Apply what you’ve learned to design and develop custom AI projects that push boundaries and solve real-world problems.</i></li>
+                </ul>
+            </div>
+        </div>
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div id = "Event">            
+            <h2 id = "schedule">Event Schedule</h2>
+            <div class = "Event-container">
+                <div class = "Event1-container">
+                    <h3>Coaching from AI Professionals</h3>
+                    <div id = "event-img">
+                        <img alt="A group of people receiving coaching in a professional setting" src="./img/AI Professionals.jpg" width = "400" height = "300" />
+                    </div>
+                    <p>Receive hands-on guidance from experienced AI engineers who will teach you how to develop high-quality, real-world AI systems.</p>
+                </div>
+                
+                <div class = "Event2-container">
+                    <h3>Turn Ideas Into Innovation</h3>
+                    <div id = "event-img2">
+                            <img alt="A Software Engineer developing code" src="./img/Software Developing.jpg" width = "400" height = "300"/>
+                    </div>
+                    <p>Apply your new skills to bring your own AI projects to life—whether it's an app, a model, or something completely new.</p>
+                </div>
+
+                <div class = "Event3-container">
+                    <h3>Work Hard, Play Hard</h3>
+                    <div id = "event-img3">
+                        <img alt="Game Competition" src="./img/Gaming Match.jpg" width = "400" height = "300"/>
+                    </div>
+                    <p>Wrap up your experience with a community-wide video game competition featuring some of your favorite titles—a celebration of all your hard work!</p>
+                </div>
+            </div>
+        </div>   
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+         <!-- rsvp
+
+    Purpose:
+    - Section for users to sign up for the event
+    - Contains a form for users to input their information, 
+    and a list of other users who have signed up
+
+    When To Modify:
+    - [ ] Project 6 (REQUIRED FEATURE) 
+    - [ ] Project 6 (STRETCH FEATURE) 
+    - [ ] Any time after
+    --> 
+    <div id="rsvp">
+        <h2 id = "rsvp page">RSVP</h2>
+        <div class="rsvp-container">
+            <div class="rsvp-para">
+                <!-- info goes here -->
+                <p>
+                   🌍 Are you ready to shape the future with AI?
+                    Join the movement at AI Academy, where tomorrow’s leaders and problem-solvers begin their journey.
+                    Be part of a community that's learning, building, and innovating with artificial intelligence.
+                    ✨ RSVP now to secure your spot and take the first step toward becoming an AI changemaker.
+                </p>
+            </div>
+            <div class="rsvp-participants">
+                <p>🤖 Kevin from Maryland has joined AI Academy.</p>
+                <p>🤖 Tamaya from Washington has joined AI Academy.</p>
+                <p>🤖 Santiago from California has joined AI Academy.</p>
+                <p id = "Feedback"></p>
+            </div>
+        </div>
+
+        <!--- Sign RSVP Form --->
+        <div class="form-container">
+            <form id="rsvp-form" title="rsvp-form">
+                <!-- form inputs go here -->
+                 <label for = "name"> Name:</label>
+                 <input type = "text" id="Name" name="Name">
+
+                 <label for = "state"> State: </label>
+                 <input type = "text" id="State" name="State">
+
+                 <label for = "email"> Email: </label>
+                 <input type = "email" id="Email" name="Email">
+                
+            </form>
+            <!-- Submit button -->
+            <button id="rsvp-button">Submit RSVP</button>
+
+        </div>      
+    </div>
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+        <!-- success modal
+
+        Purpose:
+        - Modal that appears when a user successfully signs up for the event
+        - Contains a personalized message and image
+
+        When To Modify:
+        - [ ] Project 9 (REQUIRED FEATURE)
+        - [ ] Project 9 (STRETCH FEATURE) 
+        - [ ] Any time after
+        --> 
+
+        <div id="thanks-modal" class="modal">
+            <div class="modal-container">
+                <div id="modal-item">
+                    <p id = "thanks-content-modal">
+                        Mission accomplished! 🎯 
+                        <p>
+                        You've proven you have what it takes to lead the AI revolution. Now go build the future!                        </p>
+                    </p>
+                </div>
+                <div id="modal-image">
+                    <img alt="Cartoon robot flying" src="img/Cartoon Robo.png" width = "300" height = "200" >
+                </div>
+            </div>
+        </div>
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div class = "Links">
+            <h2 id = "links">Explore AI Tools</h2>
+            <p>
+                Ready to dive into the world of Artificial Intelligence? Here are some powerful tools you can explore and experiment with on your own.
+            </p>
+
+            <a class="block" href="https://openai.com/" target="_blank" rel="noopener noreferrer">
+                <article>
+                    <h3>OpenAI</h3>
+                </article>
+            </a>
+            <p>Creators of ChatGPT and DALL-E, OpenAI offers cutting-edge tools in natural language and image generation.</p>
+
+
+            <a class="block" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">
+                <article>
+                    <h3>Google Gemini</h3>
+                </article>
+            </a>
+            <p>Google's next-generation AI model, combining powerful language understanding with deep search integration.</p>
+
+
+            <a class="block" href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer">
+                <article>
+                    <h3>Perplexity AI</h3>
+                </article>
+            </a>
+            <p>An AI-powered research assistant that answers complex questions with real-time web citations.</p>
+        </div>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <div class = "footer">
+            <a class = "block" href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener noreferrer">
+                <article>
+                    <p>
+                       Learn More
+                    </p>
+                </article>
+            </a>
+            <a class = "block" href="https://docs.google.com/document/d/1r9kRN3GNTwK0012GV2ODuSGshnNmS_oVL8DBzasjvw0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <article>
+                    <p>
+                         Email Our Team
+                    </p>
+                </article>
+            </a>
+        </div>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="index.js"></script>
+    </body>
+</html>
